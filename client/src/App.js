@@ -20,10 +20,10 @@ const App = () => {
 
   <Route exact path="/" component={MovieList}/>
 
-      <Route path="/moives/:id"
+      <Route path="/movies/:id"
       render={props => <Movie {...props}/>}/>
       
-      <Link to ='/movie/${movie.id}'></Link>
+      
     </div>
   );
 };
